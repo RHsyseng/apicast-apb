@@ -1,13 +1,18 @@
 ---
 version: 1.0
 name: apicast-apb
-description: An open source API gateway
+description: 3scale APIcast API Gateway
 bindable: false
 async: optional
 metadata:
-  displayName: APIcast (APB)
-  longDescription: This Ansible Playbook Bundle to deploy the 3scale API gateway
-  documentationUrl: https://support.3scale.net/docs
+  displayName: 3scale APIcast (APB)
+  longDescription: >-
+    This Ansible Playbook Bundle deploys the 3scale API gateway (APIcast).
+    APIcast is an NGINX based API gateway used to integrate your internal and
+    external API services with 3scale’s API Management Platform. It supports
+    OpenID connect to integrate with external Identity Providers such as Red Hat
+    Single Sign On, for API traffic authentication
+  documentationUrl: https://access.redhat.com/documentation/en-us/red_hat_3scale/2.saas/html/deployment_options/apicast-openshift
   providerDisplayName: Red Hat, Inc.
   console.openshift.io/iconClass: icon-load-balancer
 tags:
