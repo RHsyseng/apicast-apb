@@ -6,7 +6,7 @@ Ansible Service Broker.
 
 ## Plans
 
-There is just one plan: `defalut`.
+There is just one plan: `default`.
 
 ## Parameters
 
